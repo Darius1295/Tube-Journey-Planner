@@ -230,14 +230,14 @@ network['H & C Eastbound LIVERPOOL STREET'].update({'Metropolitan Westbound LIVE
 network['Circle Inner LIVERPOOL STREET'].update({'Metropolitan Westbound LIVERPOOL STREET': 4, 'Metropolitan Eastbound LIVERPOOL STREET': 4, 'H & C Westbound LIVERPOOL STREET': 4, 'H & C Eastbound LIVERPOOL STREET': 4, 'Central Westbound LIVERPOOL STREET': 6, 'Central Eastbound LIVERPOOL STREET': 6})
 network['Circle Outer LIVERPOOL STREET'].update({'Metropolitan Westbound LIVERPOOL STREET': 4, 'Metropolitan Eastbound LIVERPOOL STREET': 4, 'H & C Westbound LIVERPOOL STREET': 4, 'H & C Eastbound LIVERPOOL STREET': 4, 'Central Westbound LIVERPOOL STREET': 6, 'Central Eastbound LIVERPOOL STREET': 6})
 
-network['Northern Southbound MOORGATE'].update({'Metropolitan Westbound MOORGATE': 7, 'Metropolitan Eastbound MOORGATE': 7, 'H & C Westbound MOORGATE': 7, 'H & C Eastbound MOORGATE': 7, 'Circle Inner MOORGATE': 7, 'Circle Outer MOORGATE': 7})
-network['Northern Northbound MOORGATE'].update({'Metropolitan Westbound MOORGATE': 7, 'Metropolitan Eastbound MOORGATE': 7, 'H & C Westbound MOORGATE': 7, 'H & C Eastbound MOORGATE': 7, 'Circle Inner MOORGATE': 7, 'Circle Outer MOORGATE': 7})
-network['Metropolitan Westbound MOORGATE'].update({'Northern Southbound MOORGATE': 7, 'Northern Northbound MOORGATE': 7})
-network['Metropolitan Eastbound MOORGATE'].update({'Northern Southbound MOORGATE': 7, 'Northern Northbound MOORGATE': 7})
-network['H & C Westbound MOORGATE'].update({'Northern Southbound MOORGATE': 7, 'Northern Northbound MOORGATE': 7})
-network['H & C Eastbound MOORGATE'].update({'Northern Southbound MOORGATE': 7, 'Northern Northbound MOORGATE': 7})
-network['Circle Inner MOORGATE'].update({'Northern Southbound MOORGATE': 7, 'Northern Northbound MOORGATE': 7})
-network['Circle Outer MOORGATE'].update({'Northern Southbound MOORGATE': 7, 'Northern Northbound MOORGATE': 7})
+network['Northern Southbound MOORGATE'].update({'Metropolitan Westbound MOORGATE': 7, 'Metropolitan Eastbound MOORGATE': 7, 'H & C Westbound MOORGATE': 7, 'H & C Eastbound MOORGATE': 7, 'Circle Inner MOORGATE': 7, 'Circle Outer MOORGATE': 7, 'Northern City Southbound MOORGATE': 2, 'Northern City Northbound MOORGATE': 2})
+network['Northern Northbound MOORGATE'].update({'Metropolitan Westbound MOORGATE': 7, 'Metropolitan Eastbound MOORGATE': 7, 'H & C Westbound MOORGATE': 7, 'H & C Eastbound MOORGATE': 7, 'Circle Inner MOORGATE': 7, 'Circle Outer MOORGATE': 7, 'Northern City Southbound MOORGATE': 2, 'Northern City Northbound MOORGATE': 2})
+network['Metropolitan Westbound MOORGATE'].update({'Northern Southbound MOORGATE': 7, 'Northern Northbound MOORGATE': 7, 'Northern City Southbound MOORGATE': 6, 'Northern City Northbound MOORGATE': 6})
+network['Metropolitan Eastbound MOORGATE'].update({'Northern Southbound MOORGATE': 7, 'Northern Northbound MOORGATE': 7, 'Northern City Southbound MOORGATE': 6, 'Northern City Northbound MOORGATE': 6})
+network['H & C Westbound MOORGATE'].update({'Northern Southbound MOORGATE': 7, 'Northern Northbound MOORGATE': 7, 'Northern City Southbound MOORGATE': 6, 'Northern City Northbound MOORGATE': 6})
+network['H & C Eastbound MOORGATE'].update({'Northern Southbound MOORGATE': 7, 'Northern Northbound MOORGATE': 7, 'Northern City Southbound MOORGATE': 6, 'Northern City Northbound MOORGATE': 6})
+network['Circle Inner MOORGATE'].update({'Northern Southbound MOORGATE': 7, 'Northern Northbound MOORGATE': 7, 'Northern City Southbound MOORGATE': 6, 'Northern City Northbound MOORGATE': 6})
+network['Circle Outer MOORGATE'].update({'Northern Southbound MOORGATE': 7, 'Northern Northbound MOORGATE': 7, 'Northern City Southbound MOORGATE': 6, 'Northern City Northbound MOORGATE': 6})
 
 network['Piccadilly Westbound KINGS CROSS'].update({'Victoria Southbound KINGS CROSS': 2, 'Victoria Northbound KINGS CROSS': 2, 'Northern Southbound KINGS CROSS': 2.5, 'Northern Northbound KINGS CROSS': 2.5, 'Metropolitan Westbound KINGS CROSS ST PANCRAS': 5, 'Metropolitan Eastbound KINGS CROSS ST PANCRAS': 5, 'H & C Westbound KINGS CROSS ST PANCRAS': 5, 'H & C Eastbound KINGS CROSS ST PANCRAS': 5, 'Circle Inner KINGS CROSS ST PANCRAS': 5, 'Circle Outer KINGS CROSS ST PANCRAS': 5}) 
 network['Piccadilly Eastbound KINGS CROSS'].update({'Victoria Southbound KINGS CROSS': 2, 'Victoria Northbound KINGS CROSS': 2, 'Northern Southbound KINGS CROSS': 2.5, 'Northern Northbound KINGS CROSS': 2.5, 'Metropolitan Westbound KINGS CROSS ST PANCRAS': 5, 'Metropolitan Eastbound KINGS CROSS ST PANCRAS': 5, 'H & C Westbound KINGS CROSS ST PANCRAS': 5, 'H & C Eastbound KINGS CROSS ST PANCRAS': 5, 'Circle Inner KINGS CROSS ST PANCRAS': 5, 'Circle Outer KINGS CROSS ST PANCRAS': 5}) 
@@ -253,10 +253,10 @@ network['H & C Eastbound KINGS CROSS ST PANCRAS'].update({'Piccadilly Westbound 
 network['Circle Inner KINGS CROSS ST PANCRAS'].update({'Piccadilly Westbound KINGS CROSS': 5, 'Piccadilly Eastbound KINGS CROSS': 5, 'Victoria Southbound KINGS CROSS': 5, 'Victoria Northbound KINGS CROSS': 5, 'Northern Southbound KINGS CROSS': 7.5, 'Northern Northbound KINGS CROSS': 7.5})
 network['Circle Outer KINGS CROSS ST PANCRAS'].update({'Piccadilly Westbound KINGS CROSS': 5, 'Piccadilly Eastbound KINGS CROSS': 5, 'Victoria Southbound KINGS CROSS': 5, 'Victoria Northbound KINGS CROSS': 5, 'Northern Southbound KINGS CROSS': 7.5, 'Northern Northbound KINGS CROSS': 7.5})
 
-network['Victoria Southbound FINSBURY PARK'].update({'Piccadilly Westbound FINSBURY PARK': 2, 'Piccadilly Eastbound FINSBURY PARK': 4})
-network['Victoria Northbound FINSBURY PARK'].update({'Piccadilly Westbound FINSBURY PARK': 4, 'Piccadilly Eastbound FINSBURY PARK': 2})
-network['Piccadilly Westbound FINSBURY PARK'].update({'Victoria Southbound FINSBURY PARK': 1, 'Victoria Northbound FINSBURY PARK': 4})
-network['Piccadilly Eastbound FINSBURY PARK'].update({'Victoria Southbound FINSBURY PARK': 4, 'Victoria Northbound FINSBURY PARK': 1})
+network['Victoria Southbound FINSBURY PARK'].update({'Piccadilly Westbound FINSBURY PARK': 2, 'Piccadilly Eastbound FINSBURY PARK': 4, 'Northern City Southbound FINSBURY PARK': 5, 'Northern City Northbound FINSBURY PARK': 5})
+network['Victoria Northbound FINSBURY PARK'].update({'Piccadilly Westbound FINSBURY PARK': 4, 'Piccadilly Eastbound FINSBURY PARK': 2, 'Northern City Southbound FINSBURY PARK': 5, 'Northern City Northbound FINSBURY PARK': 5})
+network['Piccadilly Westbound FINSBURY PARK'].update({'Victoria Southbound FINSBURY PARK': 1, 'Victoria Northbound FINSBURY PARK': 4, 'Northern City Southbound FINSBURY PARK': 5, 'Northern City Northbound FINSBURY PARK': 5})
+network['Piccadilly Eastbound FINSBURY PARK'].update({'Victoria Southbound FINSBURY PARK': 4, 'Victoria Northbound FINSBURY PARK': 1, 'Northern City Southbound FINSBURY PARK': 5, 'Northern City Northbound FINSBURY PARK': 5})
 
 network['District Westbound MILE END'].update({'Central Westbound MILE END': 1, 'Central Eastbound MILE END': 3})
 network['District Eastbound MILE END'].update({'Central Westbound MILE END': 3, 'Central Eastbound MILE END': 1})
@@ -321,6 +321,18 @@ network['Central Outer HAINAULT'] = {'Central Westbound HAINAULT': 3}
 network['Central Westbound NORTH ACTON'].update({'Central Westbound WEST ACTON': 2.9})
 
 network['Northern Northbound FINCHLEY CENTRAL'].update(network.pop('Northern Northbound FINCHLEY CENTRAL (HB)'))
+
+network['Victoria Southbound HIGHBURY'].update({'Northern City Southbound HIGHBURY': 4, 'Northern City Northbound HIGHBURY': 4, 'East London Southbound HIGHBURY': 6, 'East London Northbound HIGHBURY': 6})
+network['Victoria Northbound HIGHBURY'].update({'Northern City Southbound HIGHBURY': 4, 'Northern City Northbound HIGHBURY': 4, 'East London Southbound HIGHBURY': 6, 'East London Northbound HIGHBURY': 6})
+
+network['Northern Southbound OLD STREET'].update({'Northern City Southbound OLD STREET': 3, 'Northern City Northbound OLD STREET': 3})
+network['Northern Northbound OLD STREET'].update({'Northern City Southbound OLD STREET': 3, 'Northern City Northbound OLD STREET': 3})
+
+network['District Westbound WHITECHAPEL'].update({'East London Southbound WHITECHAPEL': 5, 'East London Northbound WHITECHAPEL': 5})
+network['District Eastbound WHITECHAPEL'].update({'East London Southbound WHITECHAPEL': 5, 'East London Northbound WHITECHAPEL': 5})
+
+network['Jubilee Westbound CANADA WATER'].update({'East London Southbound CANADA WATER': 2.5, 'East London Northbound CANADA WATER': 2.5})
+network['Jubilee Eastbound CANADA WATER'].update({'East London Southbound CANADA WATER': 2.5, 'East London Northbound CANADA WATER': 2.5})
 
 
 
@@ -418,8 +430,8 @@ network['WALTHAMSTOW'] = {'Victoria Southbound WALTHAMSTOW': 3, 'Victoria Northb
 network['BLACKHORSE ROAD'] = {'Victoria Southbound BLACKHORSE ROAD': 3, 'Victoria Northbound BLACKHORSE ROAD': 3} 
 network['TOTTENHAM HALE'] = {'Victoria Southbound TOTTENHAM HALE': 5, 'Victoria Northbound TOTTENHAM HALE': 5} 
 network['SEVEN SISTERS'] = {'Victoria Southbound SEVEN SISTERS': 3, 'Victoria Northbound SEVEN SISTERS': 3}
-network['FINSBURY PARK'] = {'Victoria Southbound FINSBURY PARK': 2, 'Victoria Northbound FINSBURY PARK': 2, 'Piccadilly Westbound FINSBURY PARK': 2, 'Piccadilly Eastbound FINSBURY PARK': 2}
-network['HIGHBURY'] = {'Victoria Southbound HIGHBURY': 2, 'Victoria Northbound HIGHBURY': 2}
+network['FINSBURY PARK'] = {'Victoria Southbound FINSBURY PARK': 2, 'Victoria Northbound FINSBURY PARK': 2, 'Piccadilly Westbound FINSBURY PARK': 2, 'Piccadilly Eastbound FINSBURY PARK': 2, 'Northern City Southbound FINSBURY PARK': 3, 'Northern City Northbound FINSBURY PARK': 3}
+network['HIGHBURY'] = {'Victoria Southbound HIGHBURY': 2, 'Victoria Northbound HIGHBURY': 2, 'East London Southbound HIGHBURY': 4, 'Northern City Northbound HIGHBURY': 4, 'Northern City Southbound HIGHBURY': 4}
 
 network['KINGS CROSS ST PANCRAS'] = {'Victoria Southbound KINGS CROSS': 3, 'Victoria Northbound KINGS CROSS': 3, 'Metropolitan Westbound KINGS CROSS ST PANCRAS': 2, 'Metropolitan Eastbound KINGS CROSS ST PANCRAS': 2, 'H & C Westbound KINGS CROSS ST PANCRAS': 2, 'H & C Eastbound KINGS CROSS ST PANCRAS': 2, 'Circle Inner KINGS CROSS ST PANCRAS': 2, 'Circle Outer KINGS CROSS ST PANCRAS': 2, 'Northern Southbound KINGS CROSS': 5.5, 'Northern Northbound KINGS CROSS': 5.5, 'Piccadilly Westbound KINGS CROSS': 3, 'Piccadilly Eastbound KINGS CROSS': 3} 
 
@@ -451,7 +463,7 @@ network['WESTMINSTER'] = {'Jubilee Eastbound WESTMINSTER': 2, 'Jubilee Westbound
 network['SOUTHWARK'] = {'Jubilee Eastbound SOUTHWARK': 5, 'Jubilee Westbound SOUTHWARK': 5} 
 network['LONDON BRIDGE'] = {'Jubilee Eastbound LONDON BRIDGE': 3, 'Jubilee Westbound LONDON BRIDGE': 3, 'Northern Southbound LONDON BRIDGE': 7, 'Northern Northbound LONDON BRIDGE': 7} 
 network['BERMONDSEY'] = {'Jubilee Eastbound BERMONDSEY': 3, 'Jubilee Westbound BERMONDSEY': 3} 
-network['CANADA WATER'] = {'Jubilee Eastbound CANADA WATER': 4, 'Jubilee Westbound CANADA WATER': 4} 
+network['CANADA WATER'] = {'Jubilee Eastbound CANADA WATER': 4, 'Jubilee Westbound CANADA WATER': 4, 'East London Southbound CANADA WATER': 2, 'East London Northbound CANADA WATER': 2} 
 network['CANARY WHARF'] = {'Jubilee Eastbound CANARY WHARF': 1, 'Jubilee Westbound CANARY WHARF': 1} 
 network['NORTH GREENWICH'] = {'Jubilee Eastbound NORTH GREENWICH': 2, 'Jubilee Westbound NORTH GREENWICH': 2} 
 network['CANNING TOWN'] = {'Jubilee Eastbound CANNING TOWN': 2, 'Jubilee Westbound CANNING TOWN': 2} 
@@ -503,7 +515,7 @@ network['LEICESTER SQUARE'] = {'Northern Southbound LEICESTER SQUARE': 3, 'North
 
 
 network['ANGEL'] = {'Northern Southbound ANGEL': 2, 'Northern Northbound ANGEL': 2}
-network['OLD STREET'] = {'Northern Southbound OLD STREET': 3, 'Northern Northbound OLD STREET': 3}
+network['OLD STREET'] = {'Northern Southbound OLD STREET': 3, 'Northern Northbound OLD STREET': 3, 'Northern City Southbound OLD STREET': 3, 'Northern City Northbound OLD STREET': 3}
 
 
 network['BOROUGH'] = {'Northern Southbound BOROUGH': 3, 'Northern Northbound BOROUGH': 3}
@@ -576,7 +588,7 @@ network['SOUTH HARROW'] = {'Piccadilly Westbound SOUTH HARROW': 2, 'Piccadilly E
 
 network['ALDGATE'] = {'Metropolitan Westbound ALDGATE': 2, 'Circle Inner ALDGATE': 2, 'Circle Outer ALDGATE': 2} 
 
-network['MOORGATE'] = {'Metropolitan Westbound MOORGATE': 2, 'Metropolitan Eastbound MOORGATE': 2, 'H & C Westbound MOORGATE': 2, 'H & C Eastbound MOORGATE': 2, 'Circle Inner MOORGATE': 2, 'Circle Outer MOORGATE': 2, 'Northern Southbound MOORGATE': 5, 'Northern Northbound MOORGATE': 5} 
+network['MOORGATE'] = {'Metropolitan Westbound MOORGATE': 2, 'Metropolitan Eastbound MOORGATE': 2, 'H & C Westbound MOORGATE': 2, 'H & C Eastbound MOORGATE': 2, 'Circle Inner MOORGATE': 2, 'Circle Outer MOORGATE': 2, 'Northern Southbound MOORGATE': 5, 'Northern Northbound MOORGATE': 5, 'Northern City Southbound MOORGATE': 4,'Northern City Northbound MOORGATE': 4} 
 network['BARBICAN'] = {'Metropolitan Westbound BARBICAN': 1, 'Metropolitan Eastbound BARBICAN': 1, 'H & C Westbound BARBICAN': 1, 'H & C Eastbound BARBICAN': 1, 'Circle Inner BARBICAN': 1, 'Circle Outer BARBICAN': 1} 
 network['FARRINGDON'] = {'Metropolitan Westbound FARRINGDON': 2, 'Metropolitan Eastbound FARRINGDON': 2, 'H & C Westbound FARRINGDON': 2, 'H & C Eastbound FARRINGDON': 2, 'Circle Inner FARRINGDON': 2, 'Circle Outer FARRINGDON': 2} 
 
@@ -629,7 +641,7 @@ network['BROMLEY BY BOW'] = {'District Westbound BROMLEY BY BOW': 2, 'District E
 network['BOW ROAD'] = {'District Westbound BOW ROAD': 2, 'District Eastbound BOW ROAD': 2, 'H & C Westbound BOW ROAD': 2, 'H & C Eastbound BOW ROAD': 2} 
 
 network['STEPNEY GREEN'] = {'District Westbound STEPNEY GREEN': 2, 'District Eastbound STEPNEY GREEN': 2, 'H & C Westbound STEPNEY GREEN': 2, 'H & C Eastbound STEPNEY GREEN': 2} 
-network['WHITECHAPEL'] = {'District Westbound WHITECHAPEL': 3, 'District Eastbound WHITECHAPEL': 3, 'H & C Westbound WHITECHAPEL': 3, 'H & C Eastbound WHITECHAPEL': 3} 
+network['WHITECHAPEL'] = {'District Westbound WHITECHAPEL': 3, 'District Eastbound WHITECHAPEL': 3, 'H & C Westbound WHITECHAPEL': 3, 'H & C Eastbound WHITECHAPEL': 3, 'East London Southbound WHITECHAPEL': 2, 'East London Northbound WHITECHAPEL': 2} 
 network['ALDGATE EAST'] = {'District Westbound ALDGATE EAST': 1, 'District Eastbound ALDGATE EAST': 1, 'H & C Westbound ALDGATE EAST': 1, 'H & C Eastbound ALDGATE EAST': 1}
 
 network['TOWER HILL'] = {' District Westbound TOWER HILL': 1, 'District Eastbound TOWER HILL': 1, 'Circle Inner TOWER HILL': 1, 'Circle Outer TOWER HILL': 1}
@@ -677,14 +689,23 @@ network['KEW GARDENS'] = {'District Westbound KEW GARDENS': 2, 'District Eastbou
 network['RICHMOND'] = {'District Eastbound RICHMOND': 2}
 
 
+network['CANONBURY'] = {'East London Northbound CANONBURY': 2, 'East London Southbound CANONBURY': 2}
+network['DALSTON'] = {'East London Northbound DALSTON JUNCTION': 1, 'East London Southbound DALSTON JUNCTION': 1}
+network['HAGGERSTON'] = {'East London Northbound HAGGERSTON': 1, 'East London Southbound HAGGERSTON': 1}
+network['HOXTON'] = {'East London Northbound HOXTON': 1, 'East London Southbound HOXTON': 1}
+network['SHOREDITCH'] = {'East London Northbound SHOREDITCH': 1, 'East London Southbound SHOREDITCH': 1}
+
+network['SHADWELL'] = {'East London Northbound SHADWELL': 3, 'East London Southbound SHADWELL': 3}
+network['WAPPING'] = {'East London Northbound WAPPING': 4, 'East London Southbound WAPPING': 4}
+network['ROTHERHITHE'] = {'East London Northbound ROTHERHITHE': 2, 'East London Southbound ROTHERHITHE': 2}
+
+network['SURREY QUAYS'] = {'East London Northbound SURREY QUAYS': 3, 'East London Southbound SURREY QUAYS': 3}
+network['NEW CROSS GATE'] = {'East London Northbound NEW CROSS GATE': 3}
+network['NEW CROSS'] = {'East London Northbound NEW CROSS': 3}
 
 
-
-
-
-
-
-
+network['DRAYTON PARK'] = {'Northern City Northbound DRAYTON PARK': 2, 'Northern City Southbound DRAYTON PARK': 2}
+network['ESSEX ROAD'] = {'Northern City Northbound ESSEX ROAD': 2, 'Northern City Southbound ESSEX ROAD': 2}
 
 
 
@@ -878,6 +899,21 @@ network['Victoria Northbound SEVEN SISTERS'].update({'SEVEN SISTERS': 3})
 network['Victoria Northbound TOTTENHAM HALE'].update({'TOTTENHAM HALE': 5})
 network['Victoria Northbound BLACKHORSE ROAD'].update({'BLACKHORSE ROAD': 3})
 network['Victoria Northbound WALTHAMSTOW'] = {'WALTHAMSTOW': 3}
+
+network['Northern City Southbound FINSBURY PARK'] = {'FINSBURY PARK': 3, 'Northern City Southbound DRAYTON PARK': 3, 'Victoria Southbound FINSBURY PARK': 5, 'Victoria Northbound FINSBURY PARK': 5, 'Piccadilly Eastbound FINSBURY PARK': 5, 'Piccadilly Westbound FINSBURY PARK': 5}
+network['Northern City Southbound DRAYTON PARK'] = {'DRAYTON PARK': 2, 'Northern City Southbound HIGHBURY': 2}
+network['Northern City Southbound HIGHBURY'] = {'HIGHBURY': 4, 'Northern City Southbound ESSEX ROAD': 2, 'Victoria Southbound HIGHBURY': 4, 'Victoria Northbound HIGHBURY': 4, 'East London Southbound HIGHBURY': 6, 'East London Northbound HIGHBURY': 6}
+network['Northern City Southbound ESSEX ROAD'] = {'ESSEX ROAD': 2, 'Northern City Southbound OLD STREET': 3.3}
+network['Northern City Southbound OLD STREET'] = {'OLD STREET': 3, 'Northern City Southbound MOORGATE': 4, 'Northern Southbound OLD STREET': 3, 'Northern Northbound OLD STREET': 3}
+network['Northern City Southbound MOORGATE'] = {'MOORGATE': 4, 'Northern Southbound MOORGATE': 2, 'Northern Northbound MOORGATE': 2, 'H & C Westbound MOORGATE': 6, 'H & C Eastbound MOORGATE': 6, 'Circle Inner MOORGATE': 6, 'Circle Outer MOORGATE': 6, 'Metropolitan Westbound MOORGATE': 6, 'Metropolitan Eastbound MOORGATE': 6}
+
+network['Northern City Northbound MOORGATE'] = {'MOORGATE': 4, 'Northern City Northbound OLD STREET': 2.3, 'Northern Southbound MOORGATE': 2, 'Northern Northbound MOORGATE': 2, 'H & C Westbound MOORGATE': 6, 'H & C Eastbound MOORGATE': 6, 'Circle Inner MOORGATE': 6, 'Circle Outer MOORGATE': 6, 'Metropolitan Westbound MOORGATE': 6, 'Metropolitan Eastbound MOORGATE': 6}
+network['Northern City Northbound OLD STREET'] = {'OLD STREET': 3, 'Northern City Northbound ESSEX ROAD': 3, 'Northern Southbound OLD STREET': 3, 'Northern Northbound OLD STREET': 3}
+network['Northern City Northbound ESSEX ROAD'] = {'ESSEX ROAD': 2, 'Northern City Northbound HIGHBURY': 2.7}
+network['Northern City Northbound HIGHBURY'] = {'HIGHBURY': 4, 'Northern City Northbound DRAYTON PARK': 2.2, 'Victoria Southbound HIGHBURY': 4, 'Victoria Northbound HIGHBURY': 4, 'East London Southbound HIGHBURY': 6, 'East London Northbound HIGHBURY': 6}
+network['Northern City Northbound DRAYTON PARK'] = {'DRAYTON PARK': 2, 'Northern City Northbound FINSBURY PARK': 2.7}
+network['Northern City Northbound FINSBURY PARK'] = {'FINSBURY PARK': 3, 'Victoria Southbound FINSBURY PARK': 5, 'Victoria Northbound FINSBURY PARK': 5, 'Piccadilly Eastbound FINSBURY PARK': 5, 'Piccadilly Westbound FINSBURY PARK': 5}
+
 
 network['Waterloo & City Westbound WATERLOO'] = {'WATERLOO': 6}
 network['Waterloo & City Eastbound WATERLOO'].update({'WATERLOO': 6})
@@ -1439,19 +1475,35 @@ network['District Eastbound UPMINSTER BRIDGE'].update({'UPMINSTER BRIDGE': 2})
 network['District Eastbound UPMINSTER'] = {'UPMINSTER': 2}
 
 
+network['East London Northbound NEW CROSS'].update({'NEW CROSS': 3})
+network['East London Northbound NEW CROSS GATE'].update({'NEW CROSS GATE': 3})
+network['East London Northbound SURREY QUAYS'].update({'SURREY QUAYS': 3})
+network['East London Northbound CANADA WATER'].update({'CANADA WATER': 2, 'Jubilee Westbound CANADA WATER': 2.5, 'Jubilee Eastbound CANADA WATER': 2.5})
+network['East London Northbound ROTHERHITHE'].update({'ROTHERHITHE': 2})
+network['East London Northbound WAPPING'].update({'WAPPING': 4})
+network['East London Northbound SHADWELL'].update({'SHADWELL': 3})
+network['East London Northbound WHITECHAPEL'].update({'WHITECHAPEL': 2, 'District Westbound WHITECHAPEL': 5, 'District Eastbound WHITECHAPEL': 5, 'H & C Westbound WHITECHAPEL': 5, 'H & C Eastbound WHITECHAPEL': 5})
+network['East London Northbound SHOREDITCH'] = {'SHOREDITCH': 1, 'East London Northbound HOXTON': 2}
+network['East London Northbound HOXTON'] = {'HOXTON': 1, 'East London Northbound HAGGERSTON': 2}
+network['East London Northbound HAGGERSTON'] = {'HAGGERSTON': 1, 'East London Northbound DALSTON JUNCTION': 4}
+network['East London Northbound DALSTON JUNCTION'] = {'DALSTON': 1, 'East London Northbound CANONBURY': 2}
+network['East London Northbound CANONBURY'] = {'CANONBURY': 2, 'East London Northbound HIGHBURY': 6.5}
+network['East London Northbound HIGHBURY'] = {'HIGHBURY': 4, 'Victoria Southbound HIGHBURY': 6, 'Victoria Northbound HIGHBURY': 6, 'Northern City Southbound HIGHBURY': 6, 'Northern City Northbound HIGHBURY': 6}
 
-
-
-
-
-
-
-
-
-
-
-
-
+network['East London Southbound HIGHBURY'] = {'HIGHBURY': 4, 'East London Southbound CANONBURY': 2, 'Victoria Southbound HIGHBURY': 6, 'Victoria Northbound HIGHBURY': 6, 'Northern City Southbound HIGHBURY': 6, 'Northern City Northbound HIGHBURY': 6}
+network['East London Southbound CANONBURY'] = {'CANONBURY': 2, 'East London Southbound DALSTON JUNCTION': 3}
+network['East London Southbound DALSTON JUNCTION'] = {'DALSTON': 1, 'East London Southbound HAGGERSTON': 2}
+network['East London Southbound HAGGERSTON'] = {'HAGGERSTON': 1, 'East London Southbound HOXTON': 2}
+network['East London Southbound HOXTON'] = {'HOXTON': 1, 'East London Southbound SHOREDITCH': 2.3}
+network['East London Southbound SHOREDITCH'].update({'SHOREDITCH': 1})
+network['East London Southbound WHITECHAPEL'].update({'WHITECHAPEL': 2, 'District Westbound WHITECHAPEL': 5, 'District Eastbound WHITECHAPEL': 5, 'H & C Westbound WHITECHAPEL': 5, 'H & C Eastbound WHITECHAPEL': 5})
+network['East London Southbound SHADWELL'].update({'SHADWELL': 3})
+network['East London Southbound WAPPING'].update({'WAPPING': 4})
+network['East London Southbound ROTHERHITHE'].update({'ROTHERHITHE': 2})
+network['East London Southbound CANADA WATER'].update({'CANADA WATER': 2, 'Jubilee Westbound CANADA WATER': 2.5, 'Jubilee Eastbound CANADA WATER': 2.5})
+network['East London Southbound SURREY QUAYS'].update({'SURREY QUAYS': 3})
+network['East London Southbound NEW CROSS'] = {'NEW CROSS': 3}
+network['East London Southbound NEW CROSS GATE'] = {'NEW CROSS GATE': 3}
 
 
 

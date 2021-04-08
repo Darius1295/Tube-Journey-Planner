@@ -1,7 +1,8 @@
 import tube_network
 
 
-def shortest_time(graph, start, finish):
+def shortest_time(start, finish):
+    graph = tube_network.network
     start = start.upper()
     finish = finish.upper()
     distance_dict = {}
@@ -46,10 +47,6 @@ def shortest_time(graph, start, finish):
     print(shortest_route) 
 
     
-
-
-
-shortest_time(tube_network.network, 'highgate', 'euston')
 
 
 
