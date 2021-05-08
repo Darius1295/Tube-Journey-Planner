@@ -1,10 +1,25 @@
 import tube_network
+import sys
 
 
 def shortest_time(start, finish):
     graph = tube_network.network
+    start = start.strip()
+    finish = finish.strip()
+    start = start.replace("'", "")
+    finish = finish.replace("'", "")
     start = start.upper()
     finish = finish.upper()
+
+    if start == "KINGS CROSS" or start == "ST PANCRAS":
+        start = "KINGS CROSS ST PANCRAS"
+
+    if finish == "KINGS CROSS" or finish == "ST PANCRAS":
+        finish = "KINGS CROSS ST PANCRAS"
+
+    if start not in graph or finish not in graph:
+        return "Error"
+
     distance_dict = {}
     predecessor_dict = {}
     shortest_route = []
@@ -27,7 +42,7 @@ def shortest_time(start, finish):
                 #print(key, distance_dict[key])            
 
         if cursor == finish:
-            print(distance_dict[cursor])
+            travel_time = distance_dict[cursor]
 
         distance_dict.pop(cursor)
 
@@ -41,14 +56,10 @@ def shortest_time(start, finish):
 
     shortest_route.reverse()
 
+    travel_time = int(round(travel_time, 0))
+
     """for k, v in predecessor_dict.items():
         print(k, 'P: ' + v)"""
 
-    print(shortest_route) 
-
-    
-
-
-
-
+    return shortest_route, travel_time
 

@@ -279,8 +279,8 @@ network['Jubilee Eastbound WEST HAM'].update({'District Westbound WEST HAM': 5, 
 
 network['Northern Southbound STOCKWELL'].update({'Victoria Southbound STOCKWELL': 1, 'Victoria Northbound STOCKWELL': 3})
 network['Northern Northbound STOCKWELL'].update({'Victoria Southbound STOCKWELL': 3, 'Victoria Northbound STOCKWELL': 1})
-network['Victoria Southbound STOCKWELL'].update({'Northern Southbound STOCKWELL': 2, 'Victoria Northbound STOCKWELL': 3})
-network['Victoria Northbound STOCKWELL'].update({'Northern Southbound STOCKWELL': 3, 'Victoria Northbound STOCKWELL': 2})
+network['Victoria Southbound STOCKWELL'].update({'Northern Southbound STOCKWELL': 2, 'Northern Northbound STOCKWELL': 3})
+network['Victoria Northbound STOCKWELL'].update({'Northern Southbound STOCKWELL': 3, 'Northern Northbound STOCKWELL': 2})
 
 network['District Westbound HAMMERSMITH (DISTRICT)'].update({'Piccadilly Westbound HAMMERSMITH': 1, 'Piccadilly Eastbound HAMMERSMITH': 4})
 network['District Eastbound HAMMERSMITH (DISTRICT)'].update({'Piccadilly Westbound HAMMERSMITH': 4, 'Piccadilly Eastbound HAMMERSMITH': 1})
@@ -690,7 +690,7 @@ network['RICHMOND'] = {'District Eastbound RICHMOND': 2}
 
 
 network['CANONBURY'] = {'East London Northbound CANONBURY': 2, 'East London Southbound CANONBURY': 2}
-network['DALSTON'] = {'East London Northbound DALSTON JUNCTION': 1, 'East London Southbound DALSTON JUNCTION': 1}
+network['DALSTON JUNCTION'] = {'East London Northbound DALSTON JUNCTION': 1, 'East London Southbound DALSTON JUNCTION': 1}
 network['HAGGERSTON'] = {'East London Northbound HAGGERSTON': 1, 'East London Southbound HAGGERSTON': 1}
 network['HOXTON'] = {'East London Northbound HOXTON': 1, 'East London Southbound HOXTON': 1}
 network['SHOREDITCH'] = {'East London Northbound SHOREDITCH': 1, 'East London Southbound SHOREDITCH': 1}
@@ -1486,13 +1486,13 @@ network['East London Northbound WHITECHAPEL'].update({'WHITECHAPEL': 2, 'Distric
 network['East London Northbound SHOREDITCH'] = {'SHOREDITCH': 1, 'East London Northbound HOXTON': 2}
 network['East London Northbound HOXTON'] = {'HOXTON': 1, 'East London Northbound HAGGERSTON': 2}
 network['East London Northbound HAGGERSTON'] = {'HAGGERSTON': 1, 'East London Northbound DALSTON JUNCTION': 4}
-network['East London Northbound DALSTON JUNCTION'] = {'DALSTON': 1, 'East London Northbound CANONBURY': 2}
+network['East London Northbound DALSTON JUNCTION'] = {'DALSTON JUNCTION': 1, 'East London Northbound CANONBURY': 2}
 network['East London Northbound CANONBURY'] = {'CANONBURY': 2, 'East London Northbound HIGHBURY': 6.5}
 network['East London Northbound HIGHBURY'] = {'HIGHBURY': 4, 'Victoria Southbound HIGHBURY': 6, 'Victoria Northbound HIGHBURY': 6, 'Northern City Southbound HIGHBURY': 6, 'Northern City Northbound HIGHBURY': 6}
 
 network['East London Southbound HIGHBURY'] = {'HIGHBURY': 4, 'East London Southbound CANONBURY': 2, 'Victoria Southbound HIGHBURY': 6, 'Victoria Northbound HIGHBURY': 6, 'Northern City Southbound HIGHBURY': 6, 'Northern City Northbound HIGHBURY': 6}
 network['East London Southbound CANONBURY'] = {'CANONBURY': 2, 'East London Southbound DALSTON JUNCTION': 3}
-network['East London Southbound DALSTON JUNCTION'] = {'DALSTON': 1, 'East London Southbound HAGGERSTON': 2}
+network['East London Southbound DALSTON JUNCTION'] = {'DALSTON JUNCTION': 1, 'East London Southbound HAGGERSTON': 2}
 network['East London Southbound HAGGERSTON'] = {'HAGGERSTON': 1, 'East London Southbound HOXTON': 2}
 network['East London Southbound HOXTON'] = {'HOXTON': 1, 'East London Southbound SHOREDITCH': 2.3}
 network['East London Southbound SHOREDITCH'].update({'SHOREDITCH': 1})

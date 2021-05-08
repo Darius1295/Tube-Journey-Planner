@@ -1,0 +1,39 @@
+body { 
+  background-image: url('https://www.bbc.co.uk/london/travel/downloads/tube_map.gif');
+}
+
+fieldset {
+  background-color: white;
+  border-radius: 16px;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  width: 50px;
+}
+
+.heading {
+  font-family: "Gill Sans", Helvetica, Arial, sans-serif;
+}
+
+.subheading {
+  font-family: "Gill Sans", Helvetica, Arial, sans-serif;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-group {
+  font-family: "Gill Sans", Helvetica, Arial, sans-serif;
+}
+
+
+.result {
+  font-family: "Gill Sans", Helvetica, Arial, sans-serif;
+}
